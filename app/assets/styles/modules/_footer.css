@@ -3,5 +3,13 @@
 	color: white;
 	padding: 10px;
 	text-align:center;
+    
+    &__btn{
+        margin-top: 20px;
+        
+        @mixin atMedium {
+            margin-top: 0;
+        }
+    }
 	}
 
