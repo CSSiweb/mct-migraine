@@ -10316,6 +10316,7 @@ var $ = __webpack_require__(1);
 var Person = __webpack_require__(0);
 
 
+alert("this is a test for our Webpack automation!");
 
 var john = new Person("John Doe", "blue");
 john.greet();
