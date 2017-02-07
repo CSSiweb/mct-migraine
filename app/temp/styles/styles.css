@@ -836,6 +836,7 @@ a{ color: #d59541;}
 	color: white;
 	padding: 10px;
 	text-align:center;
+    font-weight: 200;
 	}
 .site-footer__btn{
   margin-top: 20px;
@@ -843,6 +844,7 @@ a{ color: #d59541;}
 @media (min-width: 800px){
   .site-footer__btn{
     margin-top: 0;
+    margin-right: 1.4rem;
   }
 }
 
