@@ -1,0 +1,59 @@
+.call-to-action{
+    background: $mainBlue;
+    opacity: .8;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    bottom: 0;
+    margin: auto;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    
+    @mixin atMedium{
+        width: 100%;
+    }
+    
+    &__title{
+        margin: auto;
+        float: left;
+        font-size: 1.25rem;
+        padding: 0;
+        margin-bottom: 40px;
+        
+        
+        @mixin atLarge{
+            padding: 20px;
+            font-size: 1.75rem;
+            border-right: 2px solid white;
+            
+        }
+    }
+    
+    &__btn{
+        border: 1px solid white;
+        padding: 10px;
+        
+         @mixin atLarge{
+            float: left;
+             padding: 20px;
+        }
+        
+
+    }
+    
+ 
+    
+    a { color: white; 
+        text-decoration: none; 
+        margin: 15px 10px 10px 10px;
+        
+         @mixin atLarge{
+            margin: 10px 10px 10px 20px;
+        }
+    
+    }
+}

@@ -9,6 +9,19 @@
 	&--orange {
 	  background-color: $mainOrange;
 	}
+    
+    &__blue{
+            color: $mainBlue;
+            border: 1px solid $mainBlue;
+            padding: 10px;
+            top: 60px;
+            margin: 20px;
+         
+        @mixin atLarge{
+             margin: 50px;
+        }
+         
+        }
 	
 	&--large {
 		padding: 1.1rem 1.9rem;

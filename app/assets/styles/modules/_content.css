@@ -1,0 +1,47 @@
+.content {
+    color:$mainGrey;
+    padding: 40px;
+    height: auto;
+   
+    h2{
+        color: $mainOrange;
+    }
+    
+    &__orange{
+        background: rgba($mainOrange, .2);
+        height: auto;
+        width: 100%;
+        
+    }
+    
+    &--call-out {
+    padding: 40px;
+	flex-basis: 30%;
+        
+        img{
+            width: 100%;
+        
+            @mixin atMedium{
+                width: 70%;
+            }
+        
+        }
+        
+        @mixin atMedium{
+            display: flex;
+	        justify-content: space-between;
+        }
+	
+}
+    
+    &--text-container{
+        padding: 20px;
+         margin-bottom: 20px;
+        line-height: 1.5rem;
+    
+    }
+    
+    &--title{
+        color: $mainBlue;
+    }
+}

@@ -1,13 +1,14 @@
 .primary-nav{
     
-    &--pull-right{
+ &--pull-right{
         float: right;
+        display: inline-block;
     }
     
     ul{
-        margin: 0;
+        margin: -5%;
         padding: 0;
-        @mixin clearfix;
+        float: right;
     }
     
     li {
@@ -17,11 +18,16 @@
         
     }
     
-    a {
-        color: white;
+      a {
+        color: $mainGrey;
         text-decoration: none;
         font-weight: 300;
         display: block;
-        padding: 12px 0;
+        font-size: 1.5rem;
     }
+    
+       a:hover {
+        color: $mainOrange;
+    }
+    
 }
