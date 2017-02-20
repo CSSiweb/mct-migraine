@@ -5,16 +5,17 @@
     padding: 0px;
     text-align: center;
     display: flex;
-    bottom: 0;
     margin: auto;
     height: auto;
     position: absolute;
     z-index: 2;
     width: 100%;
-    height: auto;
+    height: 155px;
     
     @mixin atMedium{
         width: 100%;
+        height: auto;
+        bottom: 0;
     }
     
     &__title{

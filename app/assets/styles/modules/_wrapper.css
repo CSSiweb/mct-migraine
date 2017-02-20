@@ -12,7 +12,7 @@
 		}
 		
 	&--no-padding-until-medium {
-		padding:0px;
+		padding:30px 0px;
 		
 		@mixin atMedium{
 			padding:30px;
