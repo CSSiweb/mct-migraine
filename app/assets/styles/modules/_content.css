@@ -6,6 +6,7 @@
     
     @mixin atMedium{
         margin-top: 0;
+        padding: 40px 40px 100px 40px
     }
    
     h2{

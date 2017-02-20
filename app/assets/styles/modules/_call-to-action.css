@@ -23,13 +23,14 @@
         float: left;
         font-size: 1.25rem;
         padding: 0;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         
         
         @mixin atLarge{
             padding: 20px;
             font-size: 1.75rem;
             border-right: 2px solid white;
+            margin-bottom: 0;
             
         }
     }
